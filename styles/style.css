@@ -1,0 +1,232 @@
+body {
+    background-color: RGBA(20, 29, 62, 1);
+}
+
+@font-face {
+    font-family: "myFont";
+    src: url("FiraSans-Black.ttf");
+}
+
+html {
+    font-family: "myFont", sans-serif;
+}
+
+span {
+    font-size: 135%;
+    color: aliceblue;
+}
+
+p {
+    font-size: 135%;
+    color: aliceblue;
+    text-align: left;
+}
+
+a {
+    font-size: 135%;
+    color: aliceblue;
+}
+
+a:visited {
+    font-size: 135%;
+    color: aliceblue;
+}
+
+h1 {
+    font-size: 175%;
+    color: aliceblue;
+}
+
+.review-psychopomp{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 2%;
+}
+
+q{
+    font-size: 170%;
+    text-shadow: 1px 1px 2px black;
+}
+
+.mylink {
+    font-size: 135%;
+}
+
+.wrapper>div {
+    border-radius: 15px;
+    background-color: rgb(10, 85, 199);
+    padding: 2.5%;
+    border: 3px solid aliceblue;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100 px 100 px 100 px 100 px;
+    grid-gap: 0.75%;
+}
+
+.box1 {
+    grid-row: 1 / 4;
+}
+
+.news{
+    border: 4px solid aliceblue;
+    border-radius: 15px;
+    padding: 1em;
+}
+
+.news > h3{
+    color: aliceblue;
+}
+
+.wrapper-about {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.logo {
+    vertical-align: middle;
+    height: 25px;
+}
+
+.pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    border: 4px solid aliceblue;
+    max-width: 85%;
+    box-sizing: content-box;
+    width: 100%;
+}
+
+.box6 {
+    grid-column: 2 / 4;
+}
+
+
+
+#review-window {
+    width: 65%;
+    height: 85%;
+    text-align: center;
+    padding: 15px;
+    border: 3px solid aliceblue;
+    border-radius: 10px;
+    color: aliceblue;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: rgb(10, 85, 199);
+}
+
+#review-window:target {display: block;}
+
+.close-window{
+    display: inline-block;
+    padding: 0.5%;
+    border: 1px solid aliceblue;
+    color: aliceblue;
+    margin: 1%;
+    text-decoration: none;
+    background: #000000;
+    cursor:pointer;
+        position: absolute;
+        top: 95%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) 
+
+}
+.close-window:hover{
+    background: rgb(87, 87, 87);
+}
+
+#zatemnenie {
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+#zatemnenie:target {display: block;}
+
+@media (max-width:1024px){
+    .wrapper>div {
+    border-radius: 15px;
+    padding: 1%;
+}
+
+    .mylink {
+    font-size: medium;
+}
+    .close-window{
+    display: inline-block;
+    padding: 0.5%;
+    border: 1px solid aliceblue;
+    color: aliceblue;
+    margin: 1%;
+    text-decoration: none;
+    background: #000000;
+    cursor:pointer;
+        position: absolute;
+        top: 95%;
+        left: 25%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) 
+
+}
+    #review-window{
+    width: 75%;
+    height: 90%;
+    text-align: center;
+    padding: 15px;
+    border: 3px solid aliceblue;
+    border-radius: 10px;
+    color: aliceblue;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: rgb(10, 85, 199);
+    }
+    p{
+        font-size: medium;
+    }
+    a{
+        font-size: 10px;
+    }
+    h1{
+        font-size: large;
+    }
+    .pic{
+        max-width: 85% ;
+    }
+    span {
+    font-size: large;
+}
+    q{
+        font-size: 130%;
+        text-shadow: 1px 1px 2px black;
+    }
+    .review-psychopomp{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 2%;
+    }
+    .review-psychopomp > p{
+        font-size: 120%;
+    }
+    .name{
+        font-weight: bold; 
+        font-size: 180%;
+    }
+}
