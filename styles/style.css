@@ -4,7 +4,7 @@ body {
 
 @font-face {
     font-family: "myFont";
-    src: url("FiraSans-Black.ttf");
+    src: "FiraSans-Black.ttf";
 }
 
 html {
@@ -25,6 +25,8 @@ p {
 a {
     font-size: 135%;
     color: aliceblue;
+    text-decoration: none;
+
 }
 
 a:visited {
@@ -33,14 +35,19 @@ a:visited {
 }
 
 h1 {
+    text-align: center;
     font-size: 175%;
     color: aliceblue;
 }
 
-.review-psychopomp{
+
+
+.review{
         display: grid;
         grid-template-columns: 1fr 1fr;
         padding-top: 2%;
+        overflow: auto;
+
 }
 
 q{
@@ -48,13 +55,20 @@ q{
     text-shadow: 1px 1px 2px black;
 }
 .name{
-    font-weight: bold; font-size: 50px;
+    font-weight: bold;
+     font-size: 50px;
 }
-.mylink {
+.links { 
+    display: grid;
+    justify-items: center;
+
+    grid-template-columns: 1fr 1fr 1fr ;
     font-size: 135%;
 }
 
+
 .wrapper>div {
+    
     border-radius: 15px;
     background-color: rgb(10, 85, 199);
     padding: 2.5%;
@@ -63,19 +77,20 @@ q{
 
 .wrapper {
     display: grid;
+    vertical-align: middle;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100 px 100 px 100 px 100 px;
     grid-gap: 0.75%;
 }
 
 .box1 {
-    grid-row: 1 / 4;
+    grid-row: 1 / 3;
 }
 
 .news{
     border: 4px solid aliceblue;
     border-radius: 15px;
-    padding: 1em;
+    padding: 3%;
+    overflow: auto;
 }
 
 h3{
@@ -84,7 +99,12 @@ h3{
 
 .wrapper-about {
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 5px;
+}
+
+.logo-about {
+    vertical-align: middle;
+    height: 75px;
 }
 
 .logo {
@@ -93,7 +113,7 @@ h3{
 }
 
 .pic {
-    display: block;
+display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 15px;
@@ -103,11 +123,27 @@ h3{
     width: 100%;
 }
 
-.box6 {
+/* .box6 {
     grid-column: 2 / 4;
+} */
+
+.song{
+    border: 4px solid aliceblue;
+    border-radius: 15px;
+    padding: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2.5%;
+
+
 }
 
+#all-music>.song{
+    border-style: none;
+    padding: 0%;
+    margin: 0%;
 
+}
 
 #review-window {
     width: 65%;
@@ -124,6 +160,7 @@ h3{
     left: 0;
     margin: auto;
     background: rgb(10, 85, 199);
+    overflow: auto;
 }
 
 #review-window:target {display: block;}
@@ -148,7 +185,7 @@ h3{
     background: rgb(87, 87, 87);
 }
 
-#zatemnenie {
+#review-psychopomp {
     background: rgba(102, 102, 102, 0.5);
     width: 100%;
     height: 100%;
@@ -157,7 +194,51 @@ h3{
     left: 0;
     display: none;
 }
-#zatemnenie:target {display: block;}
+#review-psychopomp:target {display: block;}
+
+#review-buckshot-roulette {
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+#review-buckshot-roulette:target {display: block;}
+
+#news-window {
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+#news-window:target {display: block;}
+
+#all-reviews-window {
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+#all-reviews-window:target {display: block;}
+
+#music-window {
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+#music-window:target {display: block;}
 
 @media (max-width:1024px){
     .wrapper>div {
