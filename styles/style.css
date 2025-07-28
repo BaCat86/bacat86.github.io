@@ -1,3 +1,7 @@
+html {
+    font-size: 62.5%;
+}
+
 body {
     background-color: RGBA(20, 29, 62, 1);
 }
@@ -12,146 +16,163 @@ html {
 }
 
 span {
-    font-size: 135%;
+    font-size: 2.2rem;
     color: aliceblue;
 }
 
 p {
-    font-size: 135%;
+    font-size: 2.2rem;
     color: aliceblue;
     text-align: left;
 }
 
 a {
-    font-size: 135%;
+    font-size: 1rem;
     color: aliceblue;
     text-decoration: none;
-
 }
 
 a:visited {
-    font-size: 135%;
     color: aliceblue;
+}
+
+.title-name {
+    font-size: 3.8rem;
+
 }
 
 h1 {
     text-align: center;
-    font-size: 175%;
+    font-size: 2.8rem;
     color: aliceblue;
 }
 
-
-
-.review{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding-top: 2%;
-        overflow: auto;
-
+ul {
+    text-align: left;
+    font-size: 2.2rem;
 }
 
-q{
-    font-size: 170%;
+.review {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 2%;
+    overflow: auto;
+}
+
+q {
+    font-size: 3.5rem;
     text-shadow: 1px 1px 2px black;
 }
-.name{
+
+.name {
     font-weight: bold;
-     font-size: 50px;
+    font-size: 5rem;
 }
-.links { 
+
+.links {
     display: grid;
     justify-items: center;
-
-    grid-template-columns: 1fr 1fr 1fr ;
-    font-size: 135%;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 3rem;
 }
 
 
 .wrapper>div {
-    
-    border-radius: 15px;
+    border-radius: 1.5rem;
     background-color: rgb(10, 85, 199);
     padding: 2.5%;
-    border: 3px solid aliceblue;
+    border: 0.3rem solid aliceblue;
 }
 
 .wrapper {
+    margin: 1%;
     display: grid;
     vertical-align: middle;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 0.75%;
+    grid-gap: 2.5rem;
 }
 
 .box1 {
     grid-row: 1 / 3;
 }
 
-.news{
-    border: 4px solid aliceblue;
-    border-radius: 15px;
+.news {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    border: 0.4rem solid aliceblue;
+    border-radius: 1.5rem;
     padding: 3%;
     overflow: auto;
+    margin-bottom: 5%;
 }
 
-h3{
+.news-title {
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.news-date {
+    text-align: right;
+    font-size: 1.5rem;
+    color: #cccccc;
+}
+
+
+h3 {
+    font-size: 1.9rem;
     color: aliceblue;
 }
 
 .wrapper-about {
     display: grid;
-    grid-gap: 5px;
+    grid-gap: 0.5rem;
 }
 
 .logo-about {
     vertical-align: middle;
-    height: 75px;
+    height: 7.5rem;
 }
 
 .logo {
     vertical-align: middle;
-    height: 25px;
+    height: 2.5rem;
 }
 
 .pic {
-display: block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 15px;
-    border: 4px solid aliceblue;
+    border-radius: 1.5rem;
+    border: 0.4rem solid aliceblue;
     max-width: 85%;
     box-sizing: content-box;
     width: 100%;
 }
 
-/* .box6 {
-    grid-column: 2 / 4;
-} */
-
-.song{
+.song {
     border: 4px solid aliceblue;
-    border-radius: 15px;
+    border-radius: 1.5rem;
     padding: 1%;
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 2.5%;
-
-
 }
 
-#all-music>.song{
+#all-music>.song {
     border-style: none;
     padding: 0%;
     margin: 0%;
 
 }
 
-#review-window {
+#window {
     width: 65%;
     height: 85%;
     text-align: center;
-    padding: 15px;
+    padding: 1.5rem;
     border: 3px solid aliceblue;
-    border-radius: 10px;
+    border-radius: 1rem;
     color: aliceblue;
     position: absolute;
     top: 0;
@@ -163,25 +184,29 @@ display: block;
     overflow: auto;
 }
 
-#review-window:target {display: block;}
+#review-window:target {
+    display: block;
+}
 
-.close-window{
+.close-window {
     display: inline-block;
     padding: 0.5%;
-    border: 1px solid aliceblue;
+    border: 3px solid aliceblue;
+    border-radius: 1.1rem;
     color: aliceblue;
     margin: 1%;
     text-decoration: none;
     background: #000000;
-    cursor:pointer;
-        position: absolute;
-        top: 95%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%) 
-
+    cursor: pointer;
+    position: absolute;
+    top: 5%;
+    left: 79%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
 }
-.close-window:hover{
+
+.close-window:hover {
     background: rgb(87, 87, 87);
 }
 
@@ -194,7 +219,10 @@ display: block;
     left: 0;
     display: none;
 }
-#review-psychopomp:target {display: block;}
+
+#review-psychopomp:target {
+    display: block;
+}
 
 #review-buckshot-roulette {
     background: rgba(102, 102, 102, 0.5);
@@ -205,7 +233,10 @@ display: block;
     left: 0;
     display: none;
 }
-#review-buckshot-roulette:target {display: block;}
+
+#review-buckshot-roulette:target {
+    display: block;
+}
 
 #news-window {
     background: rgba(102, 102, 102, 0.5);
@@ -216,7 +247,10 @@ display: block;
     left: 0;
     display: none;
 }
-#news-window:target {display: block;}
+
+#news-window:target {
+    display: block;
+}
 
 #all-reviews-window {
     background: rgba(102, 102, 102, 0.5);
@@ -227,7 +261,10 @@ display: block;
     left: 0;
     display: none;
 }
-#all-reviews-window:target {display: block;}
+
+#all-reviews-window:target {
+    display: block;
+}
 
 #music-window {
     background: rgba(102, 102, 102, 0.5);
@@ -238,78 +275,38 @@ display: block;
     left: 0;
     display: none;
 }
-#music-window:target {display: block;}
 
-@media (max-width:1024px){
+#music-window:target {
+    display: block;
+}
+
+@media (max-width:1024px) {
+    .wrapper {
+        display: block;
+    }
+
     .wrapper>div {
-    border-radius: 15px;
-    padding: 1%;
-}
+        margin-bottom: 3%;
+    }
 
-    .mylink {
-    font-size: medium;
-}
-    .close-window{
-    display: inline-block;
-    padding: 0.5%;
-    border: 1px solid aliceblue;
-    color: aliceblue;
-    margin: 1%;
-    text-decoration: none;
-    background: #000000;
-    cursor:pointer;
-        position: absolute;
-        top: 95%;
-        left: 25%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%) 
+    .news {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
 
-}
-    #review-window{
-    width: 75%;
-    height: 90%;
-    text-align: center;
-    padding: 15px;
-    border: 3px solid aliceblue;
-    border-radius: 10px;
-    color: aliceblue;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    background: rgb(10, 85, 199);
+    #window {
+        width: 85%;
+        height: 80%;
     }
-    p{
-        font-size: medium;
+
+    .song {
+        margin-left: 1%;
+        margin-right: 1%;
     }
-    a{
-        font-size: 10px;
-    }
-    h1{
-        font-size: large;
-    }
-    .pic{
-        max-width: 85% ;
-    }
-    span {
-    font-size: large;
-}
-    q{
-        font-size: 130%;
-        text-shadow: 1px 1px 2px black;
-    }
-    .review-psychopomp{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        padding-top: 2%;
-    }
-    .review-psychopomp > p{
-        font-size: 120%;
-    }
-    .name{
-        font-weight: bold; 
-        font-size: 180%;
+
+    .close-window {
+        top: 9%;
+        left: 85%;
+        font-size: 3.5rem;
     }
 }
