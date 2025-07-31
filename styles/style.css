@@ -88,8 +88,10 @@ q {
     margin: 1%;
     display: grid;
     vertical-align: middle;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 600px);
     grid-gap: 2.5rem;
+    justify-content: center;
+
 }
 
 .box1 {
@@ -182,6 +184,7 @@ h3 {
     margin: auto;
     background: rgb(10, 85, 199);
     overflow: auto;
+    
 }
 
 #review-window:target {
@@ -280,7 +283,7 @@ h3 {
     display: block;
 }
 
-@media (max-width:1024px) {
+@media (max-width:768px) {
     .wrapper {
         display: block;
     }
