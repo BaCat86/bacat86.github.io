@@ -14,9 +14,6 @@
 
 let musiccontainer = document.getElementById("all-music");
 let musicchildren = musiccontainer.children;
-
-
-
 let musicindex = Math.floor(Math.random() * musicchildren.length);
 
 for(let i = 0; i < musicchildren.length; i++) {
@@ -27,9 +24,6 @@ for(let i = 0; i < musicchildren.length; i++) {
 
 let piccontainer = document.getElementById("all-pic");
 let picchildren = piccontainer.children;
-
-
-
 let picindex = Math.floor(Math.random() * picchildren.length);
 
 for(let i = 0; i < picchildren.length; i++) {
@@ -41,9 +35,6 @@ for(let i = 0; i < picchildren.length; i++) {
 
 let reviewcontainer = document.getElementById("all-review");
 let reviewchildren = reviewcontainer.children;
-
-
-
 let reviewindex = Math.floor(Math.random() * reviewchildren.length);
 
 for(let i = 0; i < reviewchildren.length; i++) {

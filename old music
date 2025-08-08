@@ -1,0 +1,180 @@
+
+		<div id="window">
+			
+		</div>
+
+				<h1> <a class="title-name" href="#music-window">🎧 <u>Любимые треки</u></a> </h1>
+
+				<div style="align-items: center;" id="all-music">
+					<div class="song">
+						<iframe width="100%" height="146" scrolling="no" frameborder="no" allow="autoplay"
+							src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1947436295&color=%230e0e0e&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+						<div
+							style="font-size: 1rem; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+							<a href="https://soundcloud.com/user-344694651" title="Karbonic" target="_blank"
+								style="color: #cccccc; text-decoration: none;">Karbonic</a> · <a
+								href="https://soundcloud.com/user-344694651/santa-red-eyes"
+								title="Santa Red Eyes (Psychopomp OST)" target="_blank"
+								style="color: #cccccc; text-decoration: none;">Santa Red Eyes</a>
+							<p>Так же трек доступен на <a href="https://youtu.be/UX2YYXC8GFg?si=qRHwim4wlAI_2QB8"><img
+										class="logo" src="images/youtube-logo.png" alt=""></a></p>
+						</div>
+					</div>
+					<div class="song">
+						<iframe width="100%" height="146" scrolling="no" frameborder="no" allow="autoplay"
+							src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1394626837&color=%2322289c&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+						<div
+							style="font-size: 1rem; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+							<a href="https://soundcloud.com/nuvfr" title="\\ 𓇼||nuvfr" target="_blank"
+								style="color: #cccccc; text-decoration: none;">\\ 𓇼||nuvfr</a> · <a
+								href="https://soundcloud.com/nuvfr/meduse" title="MEDUSE 🌑🪼 ||nuv" target="_blank"
+								style="color: #cccccc; text-decoration: none;">MEDUSE 🌑🪼 ||nuv</a>
+							<p>Так же трек доступен на <a href="https://youtu.be/33gGQ79FCl4?si=sNa-rYXpmuSoJK0Q"><img
+										class="logo" src="images/youtube-logo.png" alt=""></a> <a
+									href="https://open.spotify.com/track/6LrAY2rtKScghbUKD61MX1?si=58fa65fc58264fdc"><img
+										class="logo" src="images/spotify-logo.png" alt=""></a></p>
+						</div>
+					</div>
+					<div class="song">
+						<iframe width="100%" height="146" scrolling="no" frameborder="no" allow="autoplay"
+							src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1502411878&color=%237d9058&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+						<div
+							style="font-size: 1rem; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+							<a href="https://soundcloud.com/realflyingfish" title="flyingfish" target="_blank"
+								style="color: #cccccc; text-decoration: none;">flyingfish</a> · <a
+								href="https://soundcloud.com/realflyingfish/wonder-if-u-care" title="wonder if you care"
+								target="_blank" style="color: #cccccc; text-decoration: none;">wonder if you care</a>
+							<p>Так же трек доступен на <a href="https://youtu.be/7BOL2hq0G6M?si=tZ_ehhVWfFKRtzK8"><img
+										class="logo" src="images/youtube-logo.png" alt=""></a> <a
+									href="https://open.spotify.com/track/0KdEx2ETCXYZeEVAZS4sJ4?si=eee4c18f318b41cd"><img
+										class="logo" src="images/spotify-logo.png" alt=""></a>
+								<a href="https://music.apple.com/ru/song/wonder-if-u-care/1686016505"><img class="logo"
+										src="images/apple-music-logo.png" alt=""></a>
+							</p>
+						</div>
+					</div>
+					<div class="song">
+						<iframe width="100%" height="146" scrolling="no" frameborder="no" allow="autoplay"
+							src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/869468482&color=%232c2c2c&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+						<div
+							style="font-size: 1rem; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+							<a href="https://soundcloud.com/toby-radiation-fox" title="Toby Fox" target="_blank"
+								style="color: #cccccc; text-decoration: none;">Toby Fox</a> · <a
+								href="https://soundcloud.com/toby-radiation-fox/084-amalgam" title="Amalgam"
+								target="_blank" style="color: #cccccc; text-decoration: none;">Amalgam</a>
+							<p>Так же трек доступен на <a href="https://youtu.be/p6qO-ONYEkg?si=xhdd4bAbzvT_VsGQ"><img
+										class="logo" src="images/youtube-logo.png" alt=""></a> <a
+									href="https://open.spotify.com/track/4uS9yFLe90uxnAz5VXqHQv?si=c7c69ac323ab4f1b"><img
+										class="logo" src="images/spotify-logo.png" alt=""></a>
+								<a href="https://music.apple.com/ru/song/amalgam/1528217881"><img class="logo"
+										src="images/apple-music-logo.png" alt=""></a>
+							</p>
+						</div>
+					</div>
+					<div class="song">
+						<iframe width="100%" height="146" scrolling="no" frameborder="no" allow="autoplay"
+							src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/928330162&color=%23908dd0&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+						<div
+							style="font-size: 1rem; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+							<a href="https://soundcloud.com/vertigoaway" title="vertigoaway" target="_blank"
+								style="color: #cccccc; text-decoration: none;">vertigoaway</a> · <a
+								href="https://soundcloud.com/vertigoaway/break-this-the-breaking-point-2"
+								title="BREAK THIS THE BREAKING POINT 2" target="_blank"
+								style="color: #cccccc; text-decoration: none;">BREAK THIS THE BREAKING POINT 2</a>
+							<p>Так же трек доступен на <a href="https://youtu.be/Bc8HTwC8yNs?si=Rzukc9DbtPV2oIRV"><img
+										class="logo" src="images/youtube-logo.png" alt=""></a> <a
+									href="https://open.spotify.com/track/0lUHAZHS5h2dbBfNtlrVOJ?si=2193eb040ca346ee"><img
+										class="logo" src="images/spotify-logo.png" alt=""></a>
+								<a
+									href="https://music.apple.com/ru/song/break-this-the-breaking-point-2-feat-schizoscriptures/1690145250"><img
+										class="logo" src="images/apple-music-logo.png" alt=""></a>
+							</p>
+						</div>
+					</div>
+					<div class="song">
+						<iframe width="100%" height="146" scrolling="no" frameborder="no" allow="autoplay"
+							src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/271972778&color=%23746451&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+						<div
+							style="font-size: 1rem; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+							<a href="https://soundcloud.com/9iv6n" title="9!&gt;6N" target="_blank"
+								style="color: #cccccc; text-decoration: none;">9!&gt;6N</a> · <a
+								href="https://soundcloud.com/9iv6n/wk27xwnjvzoh" title="Слово мэра" target="_blank"
+								style="color: #cccccc; text-decoration: none;">Слово мэра</a>
+							<p>Так же трек доступен на <a href="https://youtu.be/Pu7Rw-LBEK4?si=kc90-NFQBX7TC7vk"><img
+										class="logo" src="images/youtube-logo.png" alt=""></a> <a
+									href="https://music.yandex.ru/album/3087311/track/28421151?utm_source=desktop&utm_medium=copy_link"><img
+										class="logo" src="images/yandex-music-logo.png" alt=""></a> <a
+									href="https://open.spotify.com/track/0fPgzaKfkQa224ivo4Bnyg?si=81bdc2370822459d"><img
+										class="logo" src="images/spotify-logo.png" alt=""></a>
+								<a
+									href="https://music.apple.com/ru/song/%D1%81%D0%BB%D0%BE%D0%B2%D0%BE-%D0%BC%D1%8D%D1%80%D0%B0/1696260694"><img
+										class="logo" src="images/apple-music-logo.png" alt=""></a>
+							</p>
+						</div>
+					</div>
+					<div class="song">
+						<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
+							src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1873908861&color=%23495986&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+						<div
+							style="font-size: 1rem; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+							<a href="https://soundcloud.com/nalb_e" title="nalbe" target="_blank"
+								style="color: #cccccc; text-decoration: none;">nalbe</a> · <a
+								href="https://soundcloud.com/nalb_e/derevyannye-kity-yaponskaya"
+								title="Деревянные киты – Японская" target="_blank"
+								style="color: #cccccc; text-decoration: none;">Деревянные киты – Японская</a>
+							<p>Так же трек доступен на <a href="https://youtu.be/AY0AzFbwb3w?si=IIcOLJkUcNvrumKb"><img
+										class="logo" src="images/youtube-logo.png" alt=""></a> <a
+									href="https://music.yandex.ru/album/31048309/track/125588912?utm_source=desktop&utm_medium=copy_link"><img
+										class="logo" src="images/yandex-music-logo.png" alt=""></a> <a
+									href="https://open.spotify.com/track/6ZwxvhS37zzXaJsJHxOba1?si=5f030b5b33774fd0"><img
+										class="logo" src="images/spotify-logo.png" alt=""></a>
+								<a
+									href="https://music.apple.com/ru/song/%D1%8F%D0%BF%D0%BE%D0%BD%D1%81%D0%BA%D0%B0%D1%8F/1825841086"><img
+										class="logo" src="images/apple-music-logo.png" alt=""></a>
+							</p>
+						</div>
+					</div>
+					<div class="song">
+						<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
+							src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1612018959&color=%237e83bb&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+						<div
+							style="font-size: 1rem; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+							<a href="https://soundcloud.com/foolish_transgressions" title="I am nothing but a fool"
+								target="_blank" style="color: #cccccc; text-decoration: none;">I am nothing but a
+								fool</a> ·
+							<a href="https://soundcloud.com/foolish_transgressions/femtanyl-katamari"
+								title="Femtanyl - KATAMARI" target="_blank"
+								style="color: #cccccc; text-decoration: none;">Femtanyl - KATAMARI</a>
+							<p>Так же трек доступен на <a href="https://youtu.be/YfXpNIQbdjo?si=Y3ERfhiOlm4K10dK"><img
+										class="logo" src="images/youtube-logo.png" alt=""></a> <a
+									href="https://open.spotify.com/track/5iAE3uBqaZm9aHUx9yy6a0?si=f6fd5b82e18c4a8d"><img
+										class="logo" src="images/spotify-logo.png" alt=""></a>
+								<a href="https://music.apple.com/ru/song/katamari/1727700635"><img class="logo"
+										src="images/apple-music-logo.png" alt=""></a>
+							</p>
+						</div>
+					</div>
+					<div class="song">
+						<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
+							src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/26359617&color=%237e83bb&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+						<div
+							style="font-size: 1rem; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+							<a href="https://soundcloud.com/tatianaonegina" title="TatianaOnegina" target="_blank"
+								style="color: #cccccc; text-decoration: none;">TatianaOnegina</a> · <a
+								href="https://soundcloud.com/tatianaonegina/12-1" title="Сплин - Свет горел всю ночь"
+								target="_blank" style="color: #cccccc; text-decoration: none;">Сплин - Свет горел всю
+								ночь</a>
+							<p>Так же трек доступен на <a href="https://youtu.be/ifyHm4z8Mqc?si=zcwdoHgSdClP75mr"><img
+										class="logo" src="images/youtube-logo.png" alt=""></a>
+								<a
+									href="https://music.yandex.ru/album/60058/track/39089628?utm_source=desktop&utm_medium=copy_link"><img
+										class="logo" src="images/yandex-music-logo.png" alt=""></a>
+								<a href="https://open.spotify.com/track/0LFS55XU7xiUR5mQEjDmbD?si=a33ea9886a2440ae"><img
+										class="logo" src="images/spotify-logo.png" alt=""></a>
+								<a
+									href="https://music.apple.com/us/song/%D1%81%D0%B2%D0%B5%D1%82-%D0%B3%D0%BE%D1%80%D0%B5%D0%BB-%D0%B2%D1%81%D1%8E-%D0%BD%D0%BE%D1%87%D1%8C/1345371907"><img
+										class="logo" src="images/apple-music-logo.png" alt=""></a>
+							</p>
+						</div>
+					</div>
+				</div>
